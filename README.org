@@ -1,0 +1,29 @@
+#+title: ChatGPT for Emacs
+
+This is an Emacs package that quickly accesses ChatGPT in Emacs.
+
+* Installation
+
+To install this Package, follow these steps:
+
+** Install dependencies
+
+2. Python packages:
+   - [[https://github.com/ginqi7/websocket-bridge-python][websocket_bridge_python]] for communication with Emacs.
+   - [[https://playwright.dev/][playwright]] for communication with chatGPT.
+   - [[https://github.com/n8henrie/pycookiecheat][pycookiecheat]] get cookies from browser of users.
+
+** Clone or download this repository to your Emacs ~load-path~.
+
+#+begin_src emacs-lisp
+  (add-to-list 'load-path "<path-to-websocket-bridge-chatGPT>")
+  (require 'ws-chat-gpt)
+#+end_src   
+
+*  Configuration
+
+
+*  Features
+
+
+
