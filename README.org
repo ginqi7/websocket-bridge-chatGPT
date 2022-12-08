@@ -18,12 +18,15 @@ To install this Package, follow these steps:
 #+begin_src emacs-lisp
   (add-to-list 'load-path "<path-to-websocket-bridge-chatGPT>")
   (require 'ws-chat-gpt)
-#+end_src   
+  (ws-chat-gpt-start) ;; launch plugin when load configurations.
+#+end_src
 
 *  Configuration
-
+** Variables
+| variable          | value                                                   |
+| ws-chat-gpt-debug | default is nil. When t, it will show playwright window. |
 
 *  Features
-
-
+| command           | function                   |
+| ws-chat-gpt-input | input text send to ChatGPT |
 
