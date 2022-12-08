@@ -23,10 +23,9 @@ To install this Package, follow these steps:
 
 *  Configuration
 ** Variables
-| variable          | value                                                   |
-| ws-chat-gpt-debug | default is nil. When t, it will show playwright window. |
 
 *  Features
-| command           | function                   |
-| ws-chat-gpt-input | input text send to ChatGPT |
+| command             | function                   |
+| ws-chat-gpt-input   | input text send to ChatGPT |
+| ws-chat-gpt-refresh | refresh chatGPT page       |
 

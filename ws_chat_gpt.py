@@ -29,6 +29,9 @@ async def connect_chat_gpt(playwright):
     await f12.send("Network.enable")
     await f12.send("Page.enable")
     f12.on("Network.responseReceived", handle_websocket_frame_received)
+    message = "ChatGPT is ready."
+    print(message)
+    await BRIDGE.message_to_emacs(message)
 
 async def handle_websocket_frame_received(params:dict):
     """define a handler for chrome received websockets."""

@@ -30,10 +30,11 @@
   "Check grammar in buffers by chat-gpt."
   :group 'applications)
 
-(defcustom ws-chat-gpt-debug nil
+(defcustom ws-chat-gpt-debug t
   "If open debug mode.
 default is nil.
-t will open debug mode, the python code will show playwright window.")
+t will open debug mode, the python code will show playwright window.
+Because Chromium headless and headful have diferent behave, so current version open debug mode in default.")
 
 (defvar ws-chat-gpt-py-path
   (concat (file-name-directory load-file-name) "ws_chat_gpt.py"))
