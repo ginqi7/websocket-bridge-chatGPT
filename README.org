@@ -1,5 +1,7 @@
 #+title: ChatGPT for Emacs
 
+*This package will not be maintained. You could use [[https://github.com/manateelazycat/mind-wave][mind-wave]] to access chatGPT.*
+
 This is an Emacs package that quickly accesses ChatGPT in Emacs.
 
 * Installation
